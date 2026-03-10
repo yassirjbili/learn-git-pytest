@@ -1,9 +1,11 @@
-# Exercise 1: Basic Calculator Functions
-from typing import Union
+def add(a, b):
+    return a + b
 
-# Defining a Number type for cleaner type hints
-Number = Union[int, float]
+def subtract(a, b):
+    return a - b
 
+def multiply(a, b):
+    return a * b
 
 def add(a: Number, b: Number) -> Number:
     return a+b

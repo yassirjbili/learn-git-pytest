@@ -1,6 +1,3 @@
-# Exercise 2: String Utilities
-
-
 def reverse_string(s: str) -> str:
     reversed_str = ""
     for i in range(len(s)-1, -1, -1):

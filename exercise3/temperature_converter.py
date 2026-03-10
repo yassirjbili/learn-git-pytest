@@ -1,9 +1,6 @@
-# Exercise 3: Temperature Converter
 from typing import Union
 
-# Defining a Temperature type for cleaner type hints
 Temperature = Union[int, float]
-
 
 def celsius_to_fahrenheit(celsius: Temperature) -> float:
     return round((celsius * 9/5) + 32, 2)
